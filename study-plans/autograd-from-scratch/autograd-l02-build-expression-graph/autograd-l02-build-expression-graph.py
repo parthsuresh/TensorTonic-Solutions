@@ -10,7 +10,10 @@ def build_expression_graph(leaves, operations):
     
     for leaf in leaves:
         output.append({
-          "grad": 0.0, "op": "", "parents": [], **leaf  
+            **leaf, 
+            "grad": 0.0, 
+            "op": "", 
+            "parents": []
         })
         id_to_val[leaf["id"]] = leaf["data"]
 
