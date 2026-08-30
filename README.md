@@ -28,6 +28,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Build a Scalar Expression Graph | Build a scalar expression graph in forward order from leaf records and addition or multiplication operations. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l02-build-expression-graph |
 | Create an Addition Value Node | Create a scalar addition node that stores its forward value, operation type, and ordered parent identifiers. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l02-value-addition-node |
 | Create a Multiplication Value Node | Create a scalar multiplication node that stores its forward value, operation type, and ordered parent identifiers. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l02-value-multiplication-node |
+| Differentiate a Tanh Activation | Evaluate scalar tanh and manually combine its local derivative with an upstream gradient. | https://www.tensortonic.com/study-plans/autograd-from-scratch/autograd-l04-tanh-forward-backward |
 
 View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/parthsuresh_work)
 <!-- tensortonic:end -->
